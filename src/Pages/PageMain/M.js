@@ -8,9 +8,9 @@ import {LABEL_PESQUISA ,LANGUAGES ,LABEL_NOVO} from '../../Constants/Lgg/Lgg';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		backgroundColor: theme.palette.background.paper,
-		width: '100vw',
-		height: '100vh',
+		backgroundColor: theme.palette.primary.paper,
+		width: '100%',
+		height: '100%',
 		display: 'flex',
 		flexDirection: 'row',
 	},
@@ -21,13 +21,13 @@ const useStyles = makeStyles((theme) => ({
 		display: 'flex',
 		flexDirection: 'column',
 		minWidth: '200px',
-		maxWidth: '500px',
+		maxWidth: '450px',
 	},
 	leftHeader: {
 		display: 'flex',
 		justifyContent: 'space-between',
 		alignItems: 'center',
-		padding: '10px',
+		padding: '15px',
 	},
 	rightContainer: {
 		padding: '10px',

@@ -2,14 +2,13 @@ import { Box, Checkbox, makeStyles } from '@material-ui/core';
 import React, { useState } from 'react';
 import UserAvatar from '../Avatar/Avatar';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-import AvatarGroup from '@material-ui/lab/AvatarGroup';
 
 const useStyles = makeStyles(() => ({
 	menuItemRow: {
 		height: '70px',
 		display: 'flex',
 		width: '100%',
-		padding: '5px',
+		padding: '10px',
 		borderBottom: '1px solid gray',
 		'&:hover': {
 			cursor: 'pointer',
@@ -75,13 +74,7 @@ const SubMenuItens = ({
 					<span>Caixa de entrada</span>
 				</Box>
 			</Box>
-			<Box width="20%">
-				<AvatarGroup max={3} spacing="small">
-					{users.map((user, index) => (
-						<UserAvatar key={index} avatarInitial={user} />
-					))}
-				</AvatarGroup>
-			</Box>
+			
 		</Box>
 	);
 };

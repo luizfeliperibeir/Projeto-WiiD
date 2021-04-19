@@ -27,7 +27,7 @@ const Menu01 = ({ handleChangeInbox }) => {
 		<>
 			<List
 				component="nav"
-				subheader={<ListSubheader component="div">Favoritos </ListSubheader>}
+				subheader={<ListSubheader component="div"> Favoritos </ListSubheader>}
 			>
 				{menuList.map((item, key) => (
 					<>

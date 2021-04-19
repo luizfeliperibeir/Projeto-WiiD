@@ -31,7 +31,7 @@ const HdL = () => {
 				onClose={handleCloseMenu}
 			>
 				<MenuItem type="submit" onClick={handleLogout}>
-					Logout
+					Sair
 				</MenuItem>
 			</Menu>
 		</>
